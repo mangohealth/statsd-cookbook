@@ -73,4 +73,9 @@ default['statsd']['legacyNamespace'] = true
 #
 # Add any additional backend configuration here.
 #
-default['statsd']['extra_config'] = {}
+default['statsd']['extra_config'] = {
+	'librato' => {
+        'email' => 'devacc@mangohealth.com',
+        'token' => 'c59018ed9ab039b08af34c1380f2833b75f5421ff8c6ff3074ea099178f10f09'
+    }
+}
