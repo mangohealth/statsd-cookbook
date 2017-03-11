@@ -61,7 +61,7 @@ default['statsd']['service'] = {
 #
 #   attrs['statsd']['backends] = { 'statsd-librato-backend' => nil }
 #
-default['statsd']['backends'] = {}
+default['statsd']['backends'] = { 'statsd-librato-backend' => nil }
 
 #
 # Starting with v 0.50 default namespace conventions for StatsD have changed.
